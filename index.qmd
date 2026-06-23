@@ -1,0 +1,359 @@
+---
+title: "野方雄斗 / Yuto Nogata"
+description: "Personal academic website of Yuto Nogata."
+page-layout: full
+---
+
+~~~{=html}
+<div class="page">
+  <header id="home">
+    <h1>野方雄斗 / Yuto Nogata</h1>
+    <p class="subtitle">
+      Doctoral student, Graduate School of Science and Technology, Hirosaki University
+    </p>
+  </header>
+
+  <section id="profile">
+    <h2>Profile / 自己紹介</h2>
+
+    <table class="profile-table">
+      <tr>
+        <th>Affiliation</th>
+        <td>
+          弘前大学大学院 理工学研究科 安全システム工学専攻 博士後期課程<br>
+          Doctoral student, Safety Systems Engineering, Graduate School of Science and Technology, Hirosaki University
+        </td>
+      </tr>
+
+      <tr>
+        <th>Research interests</th>
+        <td>
+          群論を中心に、有限群、デザイン、符号、有限体に関連する代数的組合せ論に興味があります。<br>
+          I am interested in algebraic combinatorics related to group theory, finite groups, designs, codes, and finite fields.
+        </td>
+      </tr>
+
+      <tr>
+        <th>E-mail</th>
+        <td>h26ds201 [at] hirosaki-u.ac.jp</td>
+      </tr>
+
+      <tr>
+        <th>Address</th>
+        <td>
+          〒036-8561 青森県弘前市文京町3<br>
+          Hirosaki University, 3 Bunkyo-cho, Hirosaki, Aomori 036-8561, Japan
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="biography">
+    <h2>Biography / 略歴</h2>
+
+    <div class="bio-list">
+      <div class="bio-item">
+        <span class="bio-date">2026.04.01-</span>
+        弘前大学 SPRING スカラシップ研究学生<br>
+        <span class="bio-date"></span>
+        Hirosaki University SPRING Scholarship Awardee<br>
+        <span class="bio-date"></span>
+        JST SPRING, Grant Number JPMJSP2152
+        <a class="inline-link" href="https://cir.nii.ac.jp/crid/1860587273567001985" target="_blank" rel="noopener">（CiNii）</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="news">
+    <h2>News</h2>
+    <ul class="news-list">
+      <li><span class="date">2026.06.24</span>ホームページを開設しました。</li>
+    </ul>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+
+    <div class="controls">
+      <div class="control-row">
+        <div class="control-group search-group">
+          <label for="pub-search">Keyword search</label>
+          <input id="pub-search" type="search" placeholder="Search publications by title, author, arXiv, journal, year, etc.">
+        </div>
+      </div>
+
+      <div class="control-row">
+        <div class="control-group">
+          <label for="pub-basis">Sort basis</label>
+          <select id="pub-basis">
+            <option value="arxiv" selected>arXiv posted date</option>
+            <option value="paper">Published version first</option>
+          </select>
+        </div>
+
+        <div class="control-group">
+          <label for="pub-sort">Sort order</label>
+          <select id="pub-sort">
+            <option value="desc" selected>Newest first</option>
+            <option value="asc">Oldest first</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <details open>
+      <summary>Works</summary>
+      <div class="details-body">
+        <div id="publication-list">
+
+          <div class="entry publication-entry"
+               data-arxiv-date="2026-04-28"
+               data-paper-date=""
+               data-paper-status="under-review">
+            <div class="entry-label">Preprint</div>
+            <div class="entry-title">
+              Cyclotomic Numbers of Order q−1 over F<sub>q<sup>r</sup></sub>
+            </div>
+            <div class="entry-meta">
+              with H. Kudo
+            </div>
+
+            <div class="version-block">
+              <div class="version-title">Published version</div>
+              <p>Under review.</p>
+            </div>
+
+            <div class="version-block">
+              <div class="version-title">Preprint version</div>
+              <p>arXiv:2604.25461, posted April 28, 2026.</p>
+            </div>
+
+            <div class="links">
+              <a class="button" href="https://arxiv.org/abs/2604.25461" target="_blank" rel="noopener">arXiv</a>
+            </div>
+          </div>
+
+          <div class="entry publication-entry"
+               data-arxiv-date="2025-12-31"
+               data-paper-date=""
+               data-paper-status="under-review">
+            <div class="entry-label">Preprint</div>
+            <div class="entry-title">
+              Non-isomorphic metacyclic p-groups of split type with the same group zeta function
+            </div>
+
+            <div class="version-block">
+              <div class="version-title">Published version</div>
+              <p>Under review.</p>
+            </div>
+
+            <div class="version-block">
+              <div class="version-title">Preprint version</div>
+              <p>arXiv:2512.24546, posted December 31, 2025.</p>
+            </div>
+
+            <div class="links">
+              <a class="button" href="https://arxiv.org/abs/2512.24546" target="_blank" rel="noopener">arXiv</a>
+            </div>
+          </div>
+
+          <div class="entry publication-entry"
+               data-arxiv-date="2025-11-01"
+               data-paper-date=""
+               data-paper-status="under-review">
+            <div class="entry-label">Preprint</div>
+            <div class="entry-title">
+              Classification and lattice properties of pronormal subgroups in PSL(2,q), J<sub>1</sub>, and Sz(q) for the specified values of q
+            </div>
+
+            <div class="version-block">
+              <div class="version-title">Published version</div>
+              <p>Under review.</p>
+            </div>
+
+            <div class="version-block">
+              <div class="version-title">Preprint version</div>
+              <p>arXiv:2511.00394, posted November 1, 2025.</p>
+            </div>
+
+            <div class="links">
+              <a class="button" href="https://arxiv.org/abs/2511.00394" target="_blank" rel="noopener">arXiv</a>
+            </div>
+          </div>
+
+          <div class="entry publication-entry"
+               data-arxiv-date="2025-03-20"
+               data-paper-date="2026-03-01"
+               data-paper-status="published">
+            <div class="entry-label">Published paper</div>
+            <div class="entry-title">
+              Simple 3-designs of PSL(2,2<sup>n</sup>) with block size 13
+            </div>
+            <div class="entry-meta">
+              with T. Kondo
+            </div>
+
+            <div class="version-block">
+              <div class="version-title">Published version</div>
+              <p>
+                Journal of Combinatorial Designs <strong>34</strong> (2026), no. 3, 119--138.
+              </p>
+            </div>
+
+            <div class="version-block">
+              <div class="version-title">Preprint version</div>
+              <p>
+                arXiv:2503.16050, posted March 20, 2025.
+              </p>
+            </div>
+
+            <div class="links">
+              <a class="button" href="https://arxiv.org/abs/2503.16050" target="_blank" rel="noopener">arXiv</a>
+              <a class="button" href="https://doi.org/10.1002/jcd.22015" target="_blank" rel="noopener">Journal</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="pub-no-results" class="no-results">
+          No matching publications were found.
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section id="talks">
+    <h2>Talks</h2>
+
+    <div class="controls">
+      <div class="control-row">
+        <div class="control-group search-group">
+          <label for="talk-search">Keyword search</label>
+          <input id="talk-search" type="search" placeholder="Search talks by title, event, place, date, etc.">
+        </div>
+      </div>
+
+      <div class="control-row">
+        <div class="control-group">
+          <label for="talk-sort">Sort by date</label>
+          <select id="talk-sort">
+            <option value="desc" selected>Newest first</option>
+            <option value="asc">Oldest first</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <details open>
+      <summary>Talks and slides</summary>
+      <div class="details-body">
+        <div id="talk-list">
+
+          <div class="entry talk-entry" data-date="2026-03-25">
+            <div class="entry-title">
+              Group zeta functions and subgroup lattice isomorphism in semidirect products
+            </div>
+            <div class="entry-meta">
+              Date: 2026.03.25<br>
+              Event: 日本数学会 2026年度年会<br>
+              Place: 東京理科大学
+            </div>
+            <div class="links">
+              <a class="button" href="https://drive.google.com/file/d/1ZlWr0A1enyCSnzU7_Emn1y8-ma90mIKY/view?usp=drive_link" target="_blank" rel="noopener">Slides PDF</a>
+            </div>
+          </div>
+
+          <div class="entry talk-entry" data-date="2025-12-23">
+            <div class="entry-title">
+              Group zeta functions and subgroup lattice isomorphism in semidirect products
+            </div>
+            <div class="entry-meta">
+              Date: 2025.12.23<br>
+              Event: RIMS共同研究「有限群論，代数的組合せ論，頂点代数の研究」<br>
+              Place: 京都大学数理解析研究所
+            </div>
+            <div class="links">
+              <a class="button" href="https://drive.google.com/file/d/14IVfqZM0mNBAOg7VyYWavzATDgMq6eli/view?usp=drive_link" target="_blank" rel="noopener">Slides PDF</a>
+            </div>
+          </div>
+
+          <div class="entry talk-entry" data-date="2025-10-30">
+            <div class="entry-title">
+              巡回半直積における similar 類の構成
+            </div>
+            <div class="entry-meta">
+              Date: 2025.10.30<br>
+              Event: 弘前大学理工学部 数物科学科 談話会<br>
+              Place: 弘前大学理工学部1号館2階 第1講義室
+            </div>
+            <div class="links">
+              <a class="button" href="https://drive.google.com/file/d/1Xw5sbDbltA3CZ4gvMrwbLBZQH583n-cx/view?usp=drive_link" target="_blank" rel="noopener">Slides PDF</a>
+            </div>
+          </div>
+
+          <div class="entry talk-entry" data-date="2025-08-29">
+            <div class="entry-title">
+              Classification and lattice properties of pronormal subgroups in PSL(2,q), J<sub>1</sub>, and Sz(q) for the specified values of q
+            </div>
+            <div class="entry-meta">
+              Date: 2025.08.29<br>
+              Event: 弘前大学・金沢大学合同セミナー<br>
+              Place: 弘前大学
+            </div>
+            <div class="links">
+              <a class="button" href="https://drive.google.com/file/d/18Y7dCRkANl1ARBW3S_gpbF3fxHnJtNe9/view?usp=drive_link" target="_blank" rel="noopener">Slides PDF</a>
+            </div>
+          </div>
+
+          <div class="entry talk-entry" data-date="2025-06-20">
+            <div class="entry-title">
+              Simple 3-designs of PSL(2,2<sup>n</sup>) with block size 13
+            </div>
+            <div class="entry-meta">
+              Date: 2025.06.20<br>
+              Event: 第41回代数的組合せ論シンポジウム<br>
+              Place: 早稲田大学 西早稲田キャンパス
+            </div>
+            <div class="links">
+              <a class="button" href="https://drive.google.com/file/d/11lLP874fAahGFan-s_jCopatMmtgzzlU/view?usp=drive_link" target="_blank" rel="noopener">Slides PDF</a>
+            </div>
+          </div>
+
+          <div class="entry talk-entry" data-date="2025-03-20">
+            <div class="entry-title">
+              Simple 3-designs of PSL(2,2<sup>n</sup>) with block size 13
+            </div>
+            <div class="entry-meta">
+              Date: 2025.03.20<br>
+              Event: 日本数学会 2025年度年会<br>
+              Place: 早稲田大学
+            </div>
+            <div class="links">
+              <a class="button" href="https://drive.google.com/file/d/1XzrUSHfBVubRJwOsd39JR3pTLGxRkjbM/view?usp=drive_link" target="_blank" rel="noopener">Slides PDF</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="talk-no-results" class="no-results">
+          No matching talks were found.
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section id="links">
+    <h2>Links</h2>
+    <div class="links">
+      <a class="button" href="https://arxiv.org/search/?query=Yuto+Nogata&amp;searchtype=author&amp;abstracts=show&amp;order=-announced_date_first&amp;size=50" target="_blank" rel="noopener">arXiv: Yuto Nogata</a>
+      <a class="button" href="https://orcid.org/0009-0004-3781-7839" target="_blank" rel="noopener">ORCID</a>
+    </div>
+  </section>
+
+  <footer>
+    Last updated: 2026.06.24
+  </footer>
+</div>
+
+<script src="site.js"></script>
+~~~

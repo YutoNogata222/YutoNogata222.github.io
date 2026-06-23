@@ -1,0 +1,345 @@
+:root {
+      --text: #202124;
+      --subtext: #5f6368;
+      --border: #dadce0;
+      --link: #1a73e8;
+      --bg: #ffffff;
+      --soft: #f8fafd;
+      --label-bg: #eef3fe;
+      --label-text: #174ea6;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.72;
+      font-size: 16px;
+    }
+
+    .page {
+      max-width: 940px;
+      margin: 0 auto;
+      padding: 42px 22px 64px;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 26px;
+      margin-bottom: 34px;
+    }
+
+    h1 {
+      font-size: 34px;
+      font-weight: 500;
+      margin: 0 0 10px;
+      letter-spacing: 0.02em;
+    }
+
+    .subtitle {
+      color: var(--subtext);
+      font-size: 17px;
+      margin: 0;
+    }
+
+    .button {
+      display: inline-block;
+      text-decoration: none;
+      color: var(--link);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 5px 13px;
+      font-size: 14px;
+      background: #fff;
+    }
+
+    .button:hover {
+      background: var(--soft);
+      text-decoration: none;
+    }
+
+    .inline-link {
+      color: var(--link);
+      text-decoration: none;
+      margin-left: 4px;
+    }
+
+    .inline-link:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin: 38px 0;
+    }
+
+    h2 {
+      font-size: 24px;
+      font-weight: 500;
+      margin: 0 0 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 22px 0 10px;
+    }
+
+    p {
+      margin: 8px 0;
+    }
+
+    .small {
+      color: var(--subtext);
+      font-size: 14px;
+    }
+
+    .profile-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    .profile-table th {
+      width: 170px;
+      text-align: left;
+      vertical-align: top;
+      color: var(--subtext);
+      font-weight: 500;
+      padding: 7px 10px 7px 0;
+    }
+
+    .profile-table td {
+      vertical-align: top;
+      padding: 7px 0;
+    }
+
+    .bio-list {
+      margin-top: 10px;
+    }
+
+    .bio-item {
+      margin: 0 0 14px;
+      padding: 12px 14px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #fff;
+    }
+
+    .bio-date {
+      display: inline-block;
+      min-width: 105px;
+      color: var(--subtext);
+    }
+
+    .controls {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 12px 0 18px;
+      padding: 12px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--soft);
+    }
+
+    .control-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      width: 100%;
+    }
+
+    .control-group {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+
+    .control-group.search-group {
+      width: 100%;
+    }
+
+    .control-group.search-group input {
+      flex: 1;
+      min-width: 260px;
+    }
+
+    .controls label {
+      font-size: 14px;
+      color: var(--subtext);
+      margin-right: 4px;
+    }
+
+    .controls input,
+    .controls select {
+      font-size: 14px;
+      padding: 7px 10px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--text);
+    }
+
+    details {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin: 14px 0;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    summary {
+      cursor: pointer;
+      padding: 13px 16px;
+      font-weight: 600;
+      background: var(--soft);
+    }
+
+    .details-body {
+      padding: 14px 18px 18px;
+    }
+
+    .entry {
+      margin: 0 0 22px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid #edf0f2;
+    }
+
+    .entry:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .entry-title {
+      font-weight: 600;
+      font-size: 16px;
+      margin-bottom: 4px;
+    }
+
+    .entry-meta {
+      color: var(--subtext);
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+
+    .entry-label {
+      display: inline-block;
+      font-size: 12px;
+      color: var(--label-text);
+      background: var(--label-bg);
+      border-radius: 999px;
+      padding: 2px 9px;
+      margin-bottom: 7px;
+    }
+
+    .version-block {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .version-title {
+      color: var(--subtext);
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .news-list {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    .news-list li {
+      margin: 6px 0;
+    }
+
+    .date {
+      display: inline-block;
+      min-width: 96px;
+      color: var(--subtext);
+    }
+
+    .no-results {
+      display: none;
+      color: var(--subtext);
+      padding: 12px 0;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--subtext);
+      font-size: 13px;
+    }
+
+    @media (max-width: 640px) {
+      h1 {
+        font-size: 28px;
+      }
+
+      .profile-table th,
+      .profile-table td {
+        display: block;
+        width: 100%;
+        padding: 4px 0;
+      }
+
+      .profile-table th {
+        margin-top: 10px;
+      }
+
+      .bio-date {
+        display: block;
+        min-width: 0;
+      }
+
+      .control-row {
+        display: block;
+      }
+
+      .control-group {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      .controls input,
+      .controls select {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 6px;
+      }
+    }
+
+/* Quarto wrapper adjustments */
+.quarto-title-block {
+  display: none;
+}
+
+main.content {
+  max-width: none;
+  padding-top: 0;
+}
+
+#quarto-content {
+  display: block;
+}
+
+#quarto-document-content {
+  padding: 0;
+}
+

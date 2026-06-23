@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - site.js
+
+website:
+  title: "Yuto Nogata"
+  site-url: "https://yutonogata222.github.io"
+  description: "Personal academic website of Yuto Nogata, doctoral student in mathematics at Hirosaki University."
+  navbar:
+    title: "Yuto Nogata"
+    search: false
+    left:
+      - text: Profile
+        href: index.qmd#profile
+      - text: Biography
+        href: index.qmd#biography
+      - text: Publications
+        href: index.qmd#publications
+      - text: Talks
+        href: index.qmd#talks
+      - text: Links
+        href: index.qmd#links
+  page-footer:
+    center: "© Yuto Nogata"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    link-external-newwindow: true
