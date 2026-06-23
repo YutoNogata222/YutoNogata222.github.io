@@ -31,3 +31,6 @@ format:
     css: styles.css
     toc: false
     link-external-newwindow: true
+    include-in-header:
+      text: |
+        <meta name="google-site-verification" content="C3BmXn-OMd5Sh2YapqBv0vzLySNkS6L0ohZnAf5njFI" />
