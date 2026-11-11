@@ -141,3 +141,9 @@ function normalizeText(text) {
 
     setupPublicationControls();
     setupTalkControls();
+
+document.getElementById("navbarCollapse").addEventListener("click", function(event) {
+  if (event.target.closest("a") && this.classList.contains("show")) {
+    bootstrap.Collapse.getOrCreateInstance(this, {toggle: false}).hide();
+  }
+});

@@ -1,0 +1,315 @@
+---
+title: Yuto Nogata
+lang: en
+description: Academic website of Yuto Nogata (野方雄斗), doctoral student at Hirosaki
+  University. Research interests, publications, talks, and slides.
+page-layout: full
+include-in-header:
+  text: |
+    <meta name="google-site-verification" content="C3BmXn-OMd5Sh2YapqBv0vzLySNkS6L0ohZnAf5njFI">
+    <link rel="canonical" href="https://yutonogata222.github.io/en/">
+    <link rel="alternate" hreflang="ja" href="https://yutonogata222.github.io/">
+    <link rel="alternate" hreflang="en" href="https://yutonogata222.github.io/en/">
+    <link rel="alternate" hreflang="x-default" href="https://yutonogata222.github.io/">
+---
+
+~~~{=html}
+<header id="quarto-header" class="fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="light">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="#home">
+    <span>Yuto Nogata</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto"><li class="nav-item"><a href="#profile" class="nav-link">Profile</a></li><li class="nav-item"><a href="#biography" class="nav-link">Biography</a></li><li class="nav-item"><a href="#news" class="nav-link">News</a></li><li class="nav-item"><a href="#publications" class="nav-link">Publications</a></li><li class="nav-item"><a href="#talks" class="nav-link">Talks</a></li><li class="nav-item"><a href="#proceedings" class="nav-link">Proceedings</a></li><li class="nav-item"><a href="#links" class="nav-link">Links</a></li></ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools" id="language-picker" role="group" aria-label="Language">
+<a class="no-external" href="/" lang="ja" hreflang="ja">日本語</a><a class="no-external" href="/en/" lang="en" hreflang="en" aria-current="page">English</a></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<div class="page">
+  <header id="home">
+    <h1>Yuto Nogata</h1>
+    <p class="subtitle lead">Doctoral student, Graduate School of Science and Technology, Hirosaki University</p>
+  </header>
+
+  <section id="profile">
+    <h2 class="anchored">Profile</h2>
+
+
+<table class="profile-table caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 75%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<th data-quarto-table-cell-role="th" scope="row">Affiliation</th>
+<td>Doctoral student, Safety Systems Engineering, Graduate School of Science and Technology, Hirosaki University</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th" scope="row">Research interests</th>
+<td>Group theory, skew braces, coding theory</td>
+</tr>
+<tr class="odd">
+<th data-quarto-table-cell-role="th" scope="row">Email</th>
+<td>h26ds201 [at] hirosaki-u.ac.jp</td>
+</tr>
+<tr class="even">
+<th data-quarto-table-cell-role="th" scope="row">Address</th>
+<td>Hirosaki University, 3 Bunkyo-cho, Hirosaki, Aomori 036-8561, Japan</td>
+</tr>
+</tbody>
+</table>
+
+  </section>
+
+  <section id="biography">
+    <h2 class="anchored">Biography</h2>
+
+    <div class="bio-list">
+      <div class="bio-item"><span class="bio-date">1 April 2026–</span> Hirosaki University SPRING Scholarship Awardee<br>JST SPRING, Grant No. JPMJSP2152<a class="inline-link" href="https://cir.nii.ac.jp/crid/1860587273567001985" target="_blank" rel="noopener">CiNii</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="news">
+    <h2 class="anchored">News</h2>
+    <ul class="news-list"><li><time datetime="2026-11-11" class="date">11 November 2026</time> Website updated.</li></ul>
+  </section>
+
+  <section id="publications">
+    <h2 class="anchored">Publications</h2>
+
+    <div class="controls">
+      <div class="control-row">
+        <div class="control-group search-group">
+          <label for="pub-search">Keyword search</label>
+          <input id="pub-search" type="search" placeholder="Search publications by title, author, arXiv, journal, year, etc.">
+        </div>
+      </div>
+
+      <div class="control-row">
+        <div class="control-group">
+          <label for="pub-basis">Sort basis</label>
+          <select id="pub-basis">
+            <option value="arxiv" selected>arXiv posted date</option>
+            <option value="paper">Published version first</option>
+          </select>
+        </div>
+
+        <div class="control-group">
+          <label for="pub-sort">Sort order</label>
+          <select id="pub-sort">
+            <option value="desc" selected>Newest first</option>
+            <option value="asc">Oldest first</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <details open="">
+      <summary>Works</summary>
+      <div class="details-body">
+        <div id="publication-list">
+
+          <div class="entry publication-entry" id="o6-paper" data-arxiv-date="2026-11-10" data-paper-date="" data-paper-status="preprint"><div class="entry-label">Preprint</div><div class="entry-title">Maximal Triply Even Binary Codes from Elliptic Orthogonal Graphs</div><div class="entry-meta">Yusuke Kasai and Yuto Nogata</div><div class="version-block"><div class="version-title">Preprint version</div><p>arXiv:2611.13586, posted 10 November 2026.</p></div><div class="links"><a href="https://arxiv.org/abs/2611.13586" target="_blank" rel="noopener" class="button">arXiv</a></div></div><div class="entry publication-entry" data-arxiv-date="2026-04-28" data-paper-date="" data-paper-status="under-review">
+            <div class="entry-label">Preprint</div>
+            <div class="entry-title">
+              Cyclotomic Numbers of Order q−1 over F<sub>q<sup>r</sup></sub>
+            </div>
+            <div class="entry-meta">Hayaki Kudo and Yuto Nogata</div>
+
+            <div class="version-block">
+              <div class="version-title">Journal status</div>
+              <p>Under review.</p>
+            </div>
+
+            <div class="version-block">
+              <div class="version-title">Preprint version</div>
+              <p>arXiv:2604.25461, posted 28 April 2026.</p>
+            </div>
+
+            <div class="links">
+              <a class="button" href="https://arxiv.org/abs/2604.25461" target="_blank" rel="noopener">arXiv</a>
+            </div>
+          </div>
+
+          <div class="entry publication-entry" data-arxiv-date="2025-12-31" data-paper-date="" data-paper-status="accepted">
+            <div class="entry-label">Accepted paper</div>
+            <div class="entry-title">
+              Non-isomorphic metacyclic p-groups of split type with the same group zeta function
+            </div>
+
+            <div class="entry-meta">Yuto Nogata</div><div class="version-block">
+              <div class="version-title">Journal status</div>
+              <p>Accepted for publication in <em>Advances in Group Theory and Applications</em> on <time datetime="2026-07-31">31 July 2026</time>.</p>
+            </div>
+
+            <div class="version-block">
+              <div class="version-title">Preprint version</div>
+              <p>arXiv:2512.24546, posted 31 December 2025.</p>
+            </div>
+
+            <div class="links">
+              <a class="button" href="https://arxiv.org/abs/2512.24546" target="_blank" rel="noopener">arXiv</a>
+            </div>
+          </div>
+
+          <div class="entry publication-entry" data-arxiv-date="2025-11-01" data-paper-date="" data-paper-status="under-review">
+            <div class="entry-label">Preprint</div>
+            <div class="entry-title">
+              Classification and lattice properties of pronormal subgroups in PSL(2,q), J<sub>1</sub>, and Sz(q) for the specified values of q
+            </div>
+
+            <div class="entry-meta">Yuto Nogata</div><div class="version-block">
+              <div class="version-title">Journal status</div>
+              <p>Under review.</p>
+            </div>
+
+            <div class="version-block">
+              <div class="version-title">Preprint version</div>
+              <p>arXiv:2511.00394, posted 1 November 2025.</p>
+            </div>
+
+            <div class="links">
+              <a class="button" href="https://arxiv.org/abs/2511.00394" target="_blank" rel="noopener">arXiv</a>
+            </div>
+          </div>
+
+          <div class="entry publication-entry" data-arxiv-date="2025-03-20" data-paper-date="2026-03-01" data-paper-status="published">
+            <div class="entry-label">Published paper</div>
+            <div class="entry-title">
+              Simple 3-designs of PSL(2,2<sup>n</sup>) with block size 13
+            </div>
+            <div class="entry-meta">Takara Kondo and Yuto Nogata</div>
+
+            <div class="version-block">
+              <div class="version-title">Published version</div>
+              <p>
+                Journal of Combinatorial Designs <strong>34</strong> (2026), no. 3, 119--138.
+              </p>
+            </div>
+
+            <div class="version-block">
+              <div class="version-title">Preprint version</div>
+              <p>arXiv:2503.16050, posted 20 March 2025.</p>
+            </div>
+
+            <div class="links">
+              <a class="button" href="https://arxiv.org/abs/2503.16050" target="_blank" rel="noopener">arXiv</a>
+              <a class="button" href="https://doi.org/10.1002/jcd.22015" target="_blank" rel="noopener">Journal</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="pub-no-results" class="no-results">
+          No matching publications were found.
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section id="talks">
+    <h2 class="anchored">Talks</h2>
+
+    <div class="controls">
+      <div class="control-row">
+        <div class="control-group search-group">
+          <label for="talk-search">Keyword search</label>
+          <input id="talk-search" type="search" placeholder="Search talks by title, event, place, date, etc.">
+        </div>
+      </div>
+
+      <div class="control-row">
+        <div class="control-group">
+          <label for="talk-sort">Sort by date</label>
+          <select id="talk-sort">
+            <option value="desc" selected>Newest first</option>
+            <option value="asc">Oldest first</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <details open="">
+      <summary>Talks and slides</summary>
+      <div class="details-body">
+        <div id="talk-list">
+
+          <div class="entry talk-entry" data-date="2027-03-28"><div class="entry-label">Scheduled</div><div class="entry-title">Simple skew braces with trivial automorphism groups</div><div class="entry-meta">Meeting dates: 28–31 March 2027<br>Event: MSJ Spring Meeting 2027<br>Place: Shizuoka University, Hamamatsu Campus</div><div class="links"><a href="https://www.mathsoc.jp/activity/meeting/shizuoka27mar/index.html" target="_blank" rel="noopener" class="button">Meeting information</a></div></div><div class="entry talk-entry" data-date="2026-12-14"><div class="entry-label">Scheduled</div><div class="entry-title">Maximal Triply Even Binary Codes from Elliptic Orthogonal Polar Graphs</div><div class="entry-meta">Meeting dates: 14–17 December 2026<br>Event: RIMS Joint Research: Research on Finite Groups, Algebraic Combinatorics, and Vertex Algebras<br>Place: Research Institute for Mathematical Sciences, Kyoto University</div><div class="links"><a href="https://www.kurims.kyoto-u.ac.jp/kyoten/ja/workshop.html" target="_blank" rel="noopener" class="button">Meeting information</a></div></div><div class="entry talk-entry" data-date="2026-09-03"><div class="entry-title">Cyclotomic numbers of order <i>q</i> − 1 over 𝔽<sub><i>q</i><sup><i>r</i></sup></sub></div><div class="entry-meta">Date: 3 September 2026<br>Event: MSJ Autumn Meeting 2026<br>Place: Kobe University, Tsurukabuto 1st Campus</div><div class="links"><a href="https://drive.google.com/file/d/1iN84jB4-rhB31BQen5snLmo7M0BOTEcU/view?usp=sharing" target="_blank" rel="noopener" class="button">Slides PDF</a></div></div><div class="entry talk-entry" data-date="2026-03-25">
+            <div class="entry-title">
+              Group zeta functions and subgroup lattice isomorphism in semidirect products
+            </div>
+            <div class="entry-meta">Date: 25 March 2026<br>Event: MSJ Spring Meeting 2026<br>Place: Tokyo University of Science</div>
+            <div class="links">
+              <a class="button" href="https://drive.google.com/file/d/1ZlWr0A1enyCSnzU7_Emn1y8-ma90mIKY/view?usp=drive_link" target="_blank" rel="noopener">Slides PDF</a>
+            </div>
+          </div>
+
+          <div class="entry talk-entry" data-date="2025-12-23">
+            <div class="entry-title">
+              Group zeta functions and subgroup lattice isomorphism in semidirect products
+            </div>
+            <div class="entry-meta">Date: 23 December 2025<br>Event: RIMS Joint Research: Research on Finite Groups, Algebraic Combinatorics, and Vertex Algebras<br>Place: Research Institute for Mathematical Sciences, Kyoto University</div>
+            <div class="links">
+              <a class="button" href="https://drive.google.com/file/d/14IVfqZM0mNBAOg7VyYWavzATDgMq6eli/view?usp=drive_link" target="_blank" rel="noopener">Slides PDF</a>
+            </div>
+          </div>
+
+          <div class="entry talk-entry" data-date="2025-10-30">
+            <div class="entry-title">Construction of similar classes in semidirect products of cyclic groups</div>
+            <div class="entry-meta">Date: 30 October 2025<br>Event: Mathematics and Physics Colloquium, Hirosaki University<br>Place: Hirosaki University, Science and Technology Building 1, Lecture Room 1</div>
+            <div class="links">
+              <a class="button" href="https://drive.google.com/file/d/1Xw5sbDbltA3CZ4gvMrwbLBZQH583n-cx/view?usp=drive_link" target="_blank" rel="noopener">Slides PDF (Japanese)</a>
+            </div>
+          </div>
+
+          <div class="entry talk-entry" data-date="2025-06-20">
+            <div class="entry-title">
+              Simple 3-designs of PSL(2,2<sup>n</sup>) with block size 13
+            </div>
+            <div class="entry-meta">Date: 20 June 2025<br>Event: The 41st Symposium on Algebraic Combinatorics<br>Place: Waseda University, Nishi-Waseda Campus</div>
+            <div class="links">
+              <a class="button" href="https://drive.google.com/file/d/11lLP874fAahGFan-s_jCopatMmtgzzlU/view?usp=drive_link" target="_blank" rel="noopener">Slides PDF</a>
+            </div>
+          </div>
+
+          <div class="entry talk-entry" data-date="2025-03-20">
+            <div class="entry-title">
+              Simple 3-designs of PSL(2,2<sup>n</sup>) with block size 13
+            </div>
+            <div class="entry-meta">Date: 20 March 2025<br>Event: MSJ Spring Meeting 2025<br>Place: Waseda University</div>
+            <div class="links">
+              <a class="button" href="https://drive.google.com/file/d/1XzrUSHfBVubRJwOsd39JR3pTLGxRkjbM/view?usp=drive_link" target="_blank" rel="noopener">Slides PDF</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div id="talk-no-results" class="no-results">
+          No matching talks were found.
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section id="proceedings"><h2>Proceedings</h2><div class="entry"><div class="entry-title">Group zeta functions and subgroup lattice isomorphism in semidirect products</div><div class="entry-meta">Yuto Nogata</div><div class="entry-meta">RIMS Kôkyûroku 2350 (2026), 48–65 (in Japanese).</div><div class="links"><a href="https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/2350-05.pdf" target="_blank" rel="noopener" class="button">Proceedings PDF</a></div></div><div class="entry"><div class="entry-title">Simple 3-designs of PSL(2, 2ⁿ) with block size 13</div><div class="entry-meta">Yuto Nogata</div><div class="entry-meta">Proceedings of the 41st Symposium on Algebraic Combinatorics, pp. 125–132.</div><div class="links"><a href="https://hnozaki.jimdofree.com/proceedings-symp-alg-comb/no-41/" target="_blank" rel="noopener" class="button">Proceedings</a></div></div></section><section id="links">
+    <h2 class="anchored">Links</h2>
+    <div class="links">
+      <a class="button" href="https://arxiv.org/search/?query=Yuto+Nogata&amp;searchtype=author&amp;abstracts=show&amp;order=-announced_date_first&amp;size=50" target="_blank" rel="noopener">arXiv: Yuto Nogata</a>
+      <a class="button" href="https://orcid.org/0009-0004-3781-7839" target="_blank" rel="noopener">ORCID</a>
+    </div>
+  </section>
+
+
+</div>
+<script src="/site.js"></script>
+~~~
